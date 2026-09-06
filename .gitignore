@@ -1,0 +1,39 @@
+## Java
+*.class
+hs_err_pid*
+
+## Gradle
+/local.properties
+.gradle/
+gradle-app.setting
+/build/
+/android/build/
+/core/build/
+
+## Android Studio / IntelliJ
+.idea/
+*.ipr
+*.iws
+*.iml
+/android/gen/
+/android/out/
+com_crashlytics_export_strings.xml
+
+## Native libraries extracted from LibGDX platform jars at build time
+/android/libs/armeabi/
+/android/libs/armeabi-v7a/
+/android/libs/arm64-v8a/
+/android/libs/x86/
+/android/libs/x86_64/
+
+## Eclipse
+.classpath
+.project
+.metadata/
+/android/bin/
+/core/bin/
+.settings/
+
+## OS specific
+.DS_Store
+Thumbs.db
